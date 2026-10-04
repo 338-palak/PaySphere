@@ -1,0 +1,29 @@
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+vendor/
+node_modules/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# User-uploaded content
+uploads/*
+!uploads/.gitkeep
+
+# Database exports containing real data
+*.sql
+!database/schema.sql
+
+# Local database credentials
+includes/db-config.php
